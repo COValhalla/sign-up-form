@@ -124,6 +124,7 @@ button{
 /* left side background details */
 .img-container {
     position: relative;
+    display: flex;
 }
 .background-image{
     height: 100vh;
@@ -133,22 +134,20 @@ button{
 
 .background-color {
     display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
-    background: black;
     top: 20vh;
-    opacity: 40%;
+    background: rgba(0, 0, 0, 0.5);
+    /* opacity: 40%; */
     width: 100%;
 }
 
 .img-logo{
     width: 10vh;
     height: auto;
-    /* position 30% down screen vh  */
-    position: relative;
-
 }
 
 .odin-text{
-    position: relative;
     color: white;
 }
