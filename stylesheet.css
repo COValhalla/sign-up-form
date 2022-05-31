@@ -138,8 +138,7 @@ button{
     justify-content: center;
     position: absolute;
     top: 20vh;
-    background: rgba(0, 0, 0, 0.5);
-    /* opacity: 40%; */
+    background: rgba(0, 0, 0, 0.4);
     width: 100%;
 }
 
@@ -150,4 +149,11 @@ button{
 
 .odin-text{
     color: white;
+    font-size: 7rem;
+    font-family: norse-bold;
 }
+
+@font-face {
+    font-family: norse-bold;
+    src: url(resources/Norse-Bold.otf);
+  }
