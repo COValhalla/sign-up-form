@@ -1,7 +1,91 @@
+/* div {
+    outline: 1px solid red;
+} */
 body{
-    margin:0;
+    margin:0; /* Pushes image to the corner of page */
 }
-img{
-  height: 100vh;
-  width: auto;  
+
+.main-container {
+    display: flex;
+    background-color: lightgray;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column ;
+    margin: 20vh 0 0 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+
+.paragraph-one{
+    margin-bottom: 30px;
+    margin-right: 10vh;
+}
+
+.paragraph-two {
+    margin-bottom: 50px;
+}
+
+.form-background
+{
+    background: white;
+}
+.paragraph-three {
+    margin: 40px 40px 20px 40px
+}
+
+.form-box{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.form-column-one{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 40vh;
+}
+.form-column-two {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 40vh;
+}
+input, label {
+    display: block;
+}
+input{
+    width: 30vh;
+}
+
+/* left side background details */
+.background-image{
+    height: 100vh;
+    width: auto;  
+    position: relative;
+}
+
+.background-color {
+    position: absolute;
+    background: black;
+    top: 20vh;
+    opacity: 40%;
+}
+
+.img-logo{
+    width: 10vh;
+    height: auto;
+    /* position 30% down screen vh  */
+    position: relative;
+    top: 400px;
+}
+
+.odin-text{
+    position: relative;
+    color: white;
 }
