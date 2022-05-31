@@ -2,9 +2,9 @@
     --content-left-margin: 40px;
 }
 
-/* div {
+div {
     outline: 1px solid red;
-} */
+}
 body{
     margin:0; /* Pushes image to the corner of page */
 }
@@ -122,6 +122,9 @@ button{
   
 
 /* left side background details */
+.img-container {
+    position: relative;
+}
 .background-image{
     height: 100vh;
     width: auto;  
@@ -129,10 +132,12 @@ button{
 }
 
 .background-color {
+    display: flex;
     position: absolute;
     background: black;
     top: 20vh;
     opacity: 40%;
+    width: 100%;
 }
 
 .img-logo{
@@ -140,7 +145,7 @@ button{
     height: auto;
     /* position 30% down screen vh  */
     position: relative;
-    top: 400px;
+
 }
 
 .odin-text{
